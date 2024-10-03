@@ -1,0 +1,85 @@
+go is modern c language
+optimized for cloud infrastructure. 
+Go is compiled language
+Go can run directly without virtual machine. 
+executables are different for different operating system. 
+go has simillaries with c, java , pascal
+
+go is oop ? yes  and no 
+go has struct (instead of classes)
+
+no try / catch
+lexer does a lot of work 
+; is not required. 
+
+
+
+Go Usage :
+
+Create a folder with your desired project name 
+
+#go init <module name>
+# go run main.go
+
+
+# go env GOPATH  -> to get the env path of go 
+
+
+___________________________________________________________
+
+
+Variables and Constants in go lang 
+
+how do we declare variables : 
+
+
+	var a string = " I am a sample variable"
+	fmt.Println(a)
+
+    var b = "Hello I am a sample varible"
+
+    c:=" I am a sample varible c"
+
+
+
+important Datatypes in goalng 
+
+
+bool : True / False
+int : signed integer
+uint : unsigned interger
+float32: 32 bit floating point number
+float 64: 64 bit floating point number
+string
+
+
+
+
+
+
+
+
+___________________________________________________________
+
+how to take inputs and outputs 
+
+
+
+fmt.Printf("Enter your city name")
+	reader := bufio.NewReader(os.Stdin)
+	city, _ := reader.ReadString('\n') // comma ok syntax
+	var state string
+	fmt.Printf("Enter your state name")
+	fmt.Scanf("%s", &state)
+
+	fmt.Println(city, state)
+
+
+
+____________________________________________________________
+
+
+conversions in golang 
+
+
+
