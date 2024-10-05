@@ -27,5 +27,33 @@ func main() {
 	// generating random number using the seed seconds value as the seed
 	randNum := rand.Intn(51)
 	pl(randNum)
+	// below is for loop
 
+	for x := 'a'; x <= 'z'; x++ {
+		pl(x)
+	}
+
+	// for loop is also used to create while loops
+
+	fx := 0
+
+	for fx < 5 {
+		pl(fx)
+		fx++
+	}
+	// for true { INFINITE Loop
+	// 	pl(rand.Intn(2))
+
+	// }
+
+	var arr1 [5]int
+
+	arr2 := [5]int{1, 2, 3, 4, 5}
+
+	for _, value := range arr1 {
+		pl(value)
+	}
+	for _, value := range arr2 {
+		pl(value)
+	}
 }
