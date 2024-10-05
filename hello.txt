@@ -103,3 +103,48 @@ conversions in golang
 _____________________________________________________________________
 
 Runes in golang
+
+runes are unicodes that represent characters in golang
+
+
+the below code prints the unicode of the characters
+
+
+	pl("Rune count:", utf8.RuneCountInString(rStr))
+	for i, runeVal := range rStr {
+		fmt.Printf("%d:%#U:%c \n", i, runeVal, runeVal)
+	}
+
+
+
+___________________________________________________________________________________
+
+
+Time in golang
+	now := time.Now()
+	pl(now)
+	pl(now.Year())
+	pl(now.Month())
+	pl(now.Day())
+
+
+___________________________________________________________________________________
+
+Math functions in go 
+
+below is used to generate random int until 51
+
+randNum := rand.Intn(51)
+	pl(randNum)
+printf codes 
+
+
+%d integer
+%c character
+%f float
+%t boolean
+%s string
+%o Base8
+%x Base16
+%v gusses based on data type
+%T type of supplied value 
