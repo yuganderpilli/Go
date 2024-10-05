@@ -40,6 +40,8 @@ how do we declare variables :
 
     c:=" I am a sample varible c"
 
+if a variable / function name starts with a capital letter then 
+if can be exported / use globally.
 
 
 important Datatypes in goalng 
@@ -80,6 +82,3 @@ ____________________________________________________________
 
 
 conversions in golang 
-
-
-
