@@ -13,6 +13,6 @@ func main() {
 
 	pl("Rune count:", utf8.RuneCountInString(rStr))
 	for i, runeVal := range rStr {
-		fmt.Printf("%d  %c \n", i, runeVal)
+		fmt.Printf("%d:%#U:%c \n", i, runeVal, runeVal)
 	}
 }
